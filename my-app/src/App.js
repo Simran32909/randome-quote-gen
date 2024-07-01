@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import FancyText from "./FancyText";
+import InspirationGenerator from "./InspirationGenerator";
+import Copyright from "./Copyright";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <>
+            <FancyText title text="Get Inspired App" />
+            <InspirationGenerator>
+                <Copyright year={2004} />
+            </InspirationGenerator>
+        </>
+    );
 }
-
-export default App;
