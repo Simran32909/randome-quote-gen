@@ -13,8 +13,8 @@ Welcome to the **Random Quote Generator**, a simple React application designed t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Simran32909/get-inspired-app.git
-   cd get-inspired-app
+   git clone https://github.com/Simran32909/randome-quote-gen.git
+   cd random-quote-gen
 
 2. Install the dependencies:
     ```bash
